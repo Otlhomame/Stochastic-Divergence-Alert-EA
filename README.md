@@ -6,14 +6,14 @@ Ideally, an agressive approach would involve scaling in via lower time frames (u
 
 Examples below are run on recent market conditions using standard issue MT4 Stochastic parameters of %K Period: 5 & %D Period: 3
 
-# Sell Signal
+## Sell Signal
 
 Notice a liquidity grab before structure was broken as an engulfing candle with Stochastic divergence at play.
 
 
 ![EURUSDH1](https://user-images.githubusercontent.com/43067037/153544752-a440d402-a3a2-4ddf-a520-3c07fc985c04.png)
 
-# Buy Signal
+## Buy Signal
 
 The same happened for a buy setup
 
@@ -23,4 +23,4 @@ The same happened for a buy setup
 
 With this basic structure, you could modify your entry technique to more than index candles 1 and 2 so long as the divergence condition is satisfied.
 
-## Please note that this code is executable in an MQL4 IDE to ensure utility. In that context, it may be saved as a script or expert advisor.
+### Please note that this code is executable in an MQL4 IDE to ensure utility. In that context, it may be saved as a script or expert advisor.
