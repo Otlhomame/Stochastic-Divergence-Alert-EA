@@ -23,4 +23,4 @@ The same happened for a buy setup
 
 With this basic structure, you could modify your entry technique to more than index candles 1 and 2 so long as the divergence condition is satisfied.
 
-# Please note that this code is executable in an MQL4 IDE to ensure utility. In that context, it may be saved as a script or expert advisor.
+## Please note that this code is executable in an MQL4 IDE to ensure utility. In that context, it may be saved as a script or expert advisor.
