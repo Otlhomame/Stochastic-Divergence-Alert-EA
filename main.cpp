@@ -1,5 +1,5 @@
 //+------------------------------------------------------------------+
-//|                                             Stochastic Break.mq4 |
+//|                                         Stochastic Break.mq4/ex4 |
 //|                                              Otlhomame Thibelang |
 //|                                                 Twitter @Syl_100 |
 //+------------------------------------------------------------------+
@@ -31,8 +31,8 @@ double C1High  = High[1];  //Candle 1 High Price
 double C1Low   = Low[1];  //Candle 1 Low Price
 
 //Current Candle Stochastic vs Previous one
-double stoch0= iStochastic(NULL,0,5,3,3,MODE_SMA,0,MODE_MAIN,0);
-double stoch1= iStochastic(NULL,0,5,3,3,MODE_SMA,0,MODE_MAIN,1);
+double stoch0= iStochastic(NULL,0,5,3,3,MODE_SMA,0,MODE_MAIN,1);
+double stoch1= iStochastic(NULL,0,5,3,3,MODE_SMA,0,MODE_MAIN,2);
 
 //Defining Bullish Bearish engulfing conditions
 bool Buy= C1Low<C2Low && C1Close>C2High;
